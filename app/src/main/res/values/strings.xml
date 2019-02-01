@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">BlockBustR</string>
+    <string name="welcome_title">Welcome to BlockBustR</string>
+    <string name="browse">Browse</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="enter_recovery_email_address">Enter recovery email address</string>
+    <string name="send_reset_link">Send Reset Link</string>
+    <string name="indiana_jones_movie_description">After barely escaping a raging Shanghai nightclub brawl, Indy crash-lands into the wilds of India where he uncovers a sinister scheme that has enslaved a remote village\'s children in a fortress-like mine. Indy must save the children and avoid becoming a slave himself to the evil Thuggee cult.</string>
+    <string name="black_panther_movie_description">When young King T\'Challa is drawn into conflict with an old foe that puts his homeland Wakanda and the entire world at risk, he must release Black Panther\'s full power to save them.</string>
+    <string name="breakin2_movie_description">The neighborhood is in danger once again when a cruel entrepreneur announces plans to raze an urban community center and replace it with a shopping mall. Local break dancers rally to raise the $200,000 needed to save it. In HD.</string>
+    <string name="breakin_movie_description">Kelly (Lucinda Dickey) is a classically trained jazz dancer who\'s tired of warding off her amorous teacher and hungry for a new outlet. When she befriends street dancers Ozone (Adolfo "Shabba-Doo" Quinones) and Turbo (Michael "Boogaloo Shrimp" Chambers), she\'s blown away by their unique and original moves. She soon volunteers to help them defeat a rival group of street dancers, learning break-dancing skills along the way and sharing some moves of her own.</string>
+    <string name="star_wars_description">The Star Wars saga continues in The Last Jedi as the heroes and galactic legends go on an epic adventure unlocking mysteries of the Force and shocking revelations of the past.</string>
+    <string name="teen_wolf_description">A teenage boy\'s incredible werewolf powers improve the quality of his life in dramatic and hilarious ways.</string>
+    <string name="password_hint">Password</string>
+    <string name="enter_username">Enter username</string>
+    <string name="image_transition">imageTransition</string>
+
+</resources>

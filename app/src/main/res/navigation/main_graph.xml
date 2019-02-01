@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/welcomeFragment">
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.jerrellmardis.navigationtalk.WelcomeFragment"
+        android:label="fragment_welcome"
+        tools:layout="@layout/fragment_welcome">
+        <action
+            android:id="@+id/welcome_to_returning_user_flow"
+            app:destination="@id/login_flow_navigation" />
+        <action
+            android:id="@+id/welcome_to_browse"
+            app:destination="@id/browseFragment" />
+    </fragment>
+    <navigation
+        android:id="@+id/login_flow_navigation"
+        app:startDestination="@id/loginFragment">
+        <fragment
+            android:id="@+id/forgotPassword"
+            android:name="com.jerrellmardis.navigationtalk.ForgotPassword"
+            android:label="fragment_forgot_password"
+            tools:layout="@layout/fragment_forgot_password" />
+        <fragment
+            android:id="@+id/loginFragment"
+            android:name="com.jerrellmardis.navigationtalk.LoginFragment"
+            android:label="fragment_login"
+            tools:layout="@layout/fragment_login">
+            <action
+                android:id="@+id/login_to_forgot_password"
+                app:destination="@id/forgotPassword"
+                app:enterAnim="@anim/fade_in" />
+        </fragment>
+    </navigation>
+    <fragment
+        android:id="@+id/browseFragment"
+        android:name="com.jerrellmardis.navigationtalk.BrowseFragment"
+        android:label="fragment_browse"
+        tools:layout="@layout/fragment_browse">
+        <action
+            android:id="@+id/browse_to_movie_detail"
+            app:destination="@id/movieDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/movieDetailFragment"
+        android:name="com.jerrellmardis.navigationtalk.MovieDetailFragment"
+        android:label="fragment_movie_detail"
+        tools:layout="@layout/fragment_movie_detail" >
+        <argument
+            android:name="movie_description"
+            app:argType="string" />
+    </fragment>
+</navigation>
