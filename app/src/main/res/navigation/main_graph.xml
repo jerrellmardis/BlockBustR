@@ -31,8 +31,7 @@
             tools:layout="@layout/fragment_login">
             <action
                 android:id="@+id/login_to_forgot_password"
-                app:destination="@id/forgotPassword"
-                app:enterAnim="@anim/fade_in" />
+                app:destination="@id/forgotPassword" />
         </fragment>
     </navigation>
     <fragment
@@ -48,7 +47,7 @@
         android:id="@+id/movieDetailFragment"
         android:name="com.jerrellmardis.navigationtalk.MovieDetailFragment"
         android:label="fragment_movie_detail"
-        tools:layout="@layout/fragment_movie_detail" >
+        tools:layout="@layout/fragment_movie_detail">
         <argument
             android:name="movie_description"
             app:argType="string" />
